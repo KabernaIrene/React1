@@ -2,6 +2,47 @@
   text-align: center;
 }
 
+body, html {
+  margin: 0ph;
+  padding: 0ph;
+}
+
+.App div {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  text-align:center;
+  padding:20px;
+  justify-content: center;
+  align-items: center;
+  background-color: burlywood;
+}
+
+.header {
+  color: brown;
+  margin: 0ph;
+  padding: 0ph;
+}
+
+.listNav {
+  list-style: none;
+  flex: 2;
+
+}
+
+
+.body {
+  flex: 3;
+}
+
+li {
+  padding: 40 ph;
+}
+
+
+
+
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +77,4 @@
     transform: rotate(360deg);
   }
 }
+*/
